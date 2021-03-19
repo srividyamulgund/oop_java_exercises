@@ -7,14 +7,14 @@ class DomesticCat extends CatBehaviour{
     boolean sleeping;
 
     public DomesticCat(){
-        super();
+        super("Purrrrrrr" );
         this.averageHeight = 23;
         this.setting = "domestic";
         this.sleeping = false;
     }
-    public String eat() {
-        return "Purrrrrrr";
-    }
+    // public String eat() {
+    //     return "Purrrrrrr";
+    // }
     public int getAverageHeight() {
         return averageHeight;
     }

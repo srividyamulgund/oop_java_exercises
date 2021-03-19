@@ -7,15 +7,15 @@ class CheetahCat extends CatBehaviour {
     boolean sleeping;
 
     public CheetahCat(){
-        super();
+        super("Zzzzzzz");
         this.setting = "wild";
         this.sleeping = false;
         this.averageHeight = 100;
     }
 
-    public String eat() {
-        return "Zzzzzzz";
-    }
+    // public String eat() {
+    //     return "Zzzzzzz";
+    // }
     public int getAverageHeight() {
         return averageHeight;
     }

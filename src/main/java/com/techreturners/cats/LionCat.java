@@ -7,15 +7,15 @@ class LionCat extends CatBehaviour {
     boolean sleeping;
 
     public LionCat(){
-        super();
+        super("Roar!!!!");
         this.averageHeight = 1100;
         this.setting = "wild";
         this.sleeping = false;
     }
 
-    public String eat() {
-        return "Roar!!!!";
-    }
+    // public String eat() {
+    //     return "Roar!!!!";
+    // }
     public int getAverageHeight() {
         return averageHeight;
     }
