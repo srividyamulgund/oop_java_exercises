@@ -2,24 +2,8 @@ package com.techreturners.cats;
 
 class LionCat extends CatBehaviour {
 
-    int averageHeight;
-    String setting;
-    boolean sleeping;
-
     public LionCat(){
-        super("Roar!!!!");
-        this.averageHeight = 1100;
-        this.setting = "wild";
-        this.sleeping = false;
+        super("Roar!!!!", 1100, "wild");
     }
-
-    // public String eat() {
-    //     return "Roar!!!!";
-    // }
-    public int getAverageHeight() {
-        return averageHeight;
-    }
-    public String getSetting() {
-        return setting;
-    }
+    
 }

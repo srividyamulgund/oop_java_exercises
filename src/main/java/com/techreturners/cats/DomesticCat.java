@@ -2,24 +2,8 @@ package com.techreturners.cats;
 
 class DomesticCat extends CatBehaviour{
 
-    int averageHeight;
-    String setting;
-    boolean sleeping;
-
     public DomesticCat(){
-        super("Purrrrrrr" );
-        this.averageHeight = 23;
-        this.setting = "domestic";
-        this.sleeping = false;
-    }
-    // public String eat() {
-    //     return "Purrrrrrr";
-    // }
-    public int getAverageHeight() {
-        return averageHeight;
-    }
-    public String getSetting() {
-        return setting; 
+        super("Purrrrrrr", 23, "domestic" );
     }
 
-} // end of domestic cat
+} 
